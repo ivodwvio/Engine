@@ -1,0 +1,4 @@
+﻿Current task:
+
+Create Objects and GameObjects,
+and practice them in the IntroState.
