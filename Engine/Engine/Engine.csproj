@@ -43,26 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Color.cs" />
-    <Compile Include="Element.cs" />
-    <Compile Include="Game.cs" />
-    <Compile Include="GameObject.cs" />
-    <Compile Include="GameState.cs" />
-    <Compile Include="IntroState.cs" />
+    <Compile Include="Elements\Color.cs" />
+    <Compile Include="Objects\Element.cs" />
+    <Compile Include="Engine\Game.cs" />
+    <Compile Include="Base Classes\GameObject.cs" />
+    <Compile Include="Base Classes\GameState.cs" />
+    <Compile Include="Game States\IntroState.cs" />
     <Compile Include="Line.cs" />
-    <Compile Include="PlayState.cs" />
-    <Compile Include="Point.cs" />
+    <Compile Include="Game States\PlayState.cs" />
+    <Compile Include="Elements\Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shape.cs" />
-    <Compile Include="StateMachine.cs" />
-    <Compile Include="TemplateState.cs" />
-    <Compile Include="Time.cs" />
-    <Compile Include="Timer.cs" />
-    <Compile Include="Window.cs" />
+    <Compile Include="Elements\Shape.cs" />
+    <Compile Include="Engine\StateMachine.cs" />
+    <Compile Include="Templates\TemplateState.cs" />
+    <Compile Include="Elements\Time.cs" />
+    <Compile Include="Elements\Timer.cs" />
+    <Compile Include="Engine\Window.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Todo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Game Objects\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
