@@ -4,9 +4,9 @@ namespace Engine
 {
 	class Element
 	{
-		private char sign;
-		private Point pos;
-		private Color color;
+		public char sign;
+		public Point pos;
+		public Color color;
 
 		public Element(char sign, Point pos, Color color)
 		{
@@ -15,7 +15,7 @@ namespace Engine
 			this.color = color;
 		}
 
-		public void draw()
+		public virtual void draw()
 		{
 			if (pos.gotoPoint())
 			{
@@ -25,7 +25,7 @@ namespace Engine
 			}
 		}
 
-		public void erase()
+		public virtual void erase()
 		{
 			if (pos.gotoPoint())
 			{
@@ -33,7 +33,7 @@ namespace Engine
 			}
 		}
 
-		public void move(int x, int y)
+		public virtual void move(int x, int y)
 		{
 			erase();
 			pos.x += x;

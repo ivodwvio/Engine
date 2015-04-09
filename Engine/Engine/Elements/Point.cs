@@ -41,7 +41,9 @@ namespace Engine
 		public bool isValidPosition()
 		{
 			if (x < 0 || x >= Console.WindowWidth ||
-				y < 0 || y >= Console.WindowHeight)
+				y < 0 || y >= Console.WindowHeight ||
+				x == Console.WindowWidth - 1 &&
+				y == Console.WindowHeight - 1)
 			{
 				return false;
 			}
