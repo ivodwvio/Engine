@@ -34,9 +34,10 @@ namespace Engine
 			Console.BackgroundColor = backcolor;
 		}
 
-		public Color getCurrentColor()
+		public void getCurrentColor()
 		{
-			return new Color(Console.ForegroundColor, Console.BackgroundColor);
+			this.forecolor = Console.ForegroundColor;
+			this.backcolor = Console.BackgroundColor;
 		}
 	}
 }

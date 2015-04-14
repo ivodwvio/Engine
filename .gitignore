@@ -3,4 +3,10 @@ Engine/Engine/bin/
 Engine/Engine/obj/
 Engine/Engine.suo
 *.opensdf
+*.sdf
+*.suo
+*.sln
+*.filters
+*.vcxproj*
+ipch/
 Debug/

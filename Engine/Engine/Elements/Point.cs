@@ -38,6 +38,12 @@ namespace Engine
 			return false;
 		}
 
+		public void getCurrentPoint()
+		{
+			this.x = Console.CursorLeft;
+			this.y = Console.CursorTop;
+		}
+
 		public bool isValidPosition()
 		{
 			if (x < 0 || x >= Console.WindowWidth ||

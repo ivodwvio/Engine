@@ -56,7 +56,7 @@ namespace Engine
 			return result;
 		}
 
-		public void recordCurrentTime()
+		public void getCurrentTime()
 		{
 			hour = DateTime.Now.Hour;
 			minute = DateTime.Now.Minute;

@@ -7,12 +7,12 @@
 
 		public void start()
 		{
-			startTime.recordCurrentTime();
+			startTime.getCurrentTime();
 		}
 
 		public void stop()
 		{
-			stopTime.recordCurrentTime();
+			stopTime.getCurrentTime();
 		}
 
 		public long getMilliseconds()
