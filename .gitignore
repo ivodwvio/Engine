@@ -2,3 +2,5 @@ Git/
 Engine/Engine/bin/
 Engine/Engine/obj/
 Engine/Engine.suo
+*.opensdf
+Debug/
